@@ -1,7 +1,7 @@
 ---
 title: Welcome to Middleman
 ---
-section#home.module-hero.module-parallax.module-fade.module-full-height.bg-dark-30[data-background="assets/images/section-1.jpg"]
+section#home.module-hero.module-parallax.module-fade.module-full-height.bg-dark-30[data-background="/images/home.jpg"]
   .hs-caption.container
     .caption-content
       .hs-title-size-4.font-alt.m-b-30
@@ -33,75 +33,41 @@ section#home.module-hero.module-parallax.module-fade.module-full-height.bg-dark-
     ul#works-grid.works-grid.works-grid-masonry.works-grid-3.works-hover-w
       li.work-item.illustration.webdesign
         a[href="portfolio-single-1.html"]
-
-        .work-image
-          img[src="assets/images/work-masonry-1.jpg" alt=""]
-        .work-caption
-          h3.work-title.font-alt
-            | Corporate Identity
-          .work-descr.font-inc
-            |  Illustration 
+          .work-image
+            = image_tag 'int1.jpg'
+          .work-caption
+            h3.work-title.font-alt
+              | Corporate Identity
+            .work-descr.font-inc
+              |  Illustration 
       li.work-item.marketing.photography
         a[href="portfolio-single-1.html"]
-
-        .work-image
-          img[src="assets/images/work-2.jpg" alt=""]
-        .work-caption
-          h3.work-title.font-alt
-            | Bag MockUp
-          .work-descr.font-inc
-            |  Marketing 
+          .work-image
+            = image_tag 'int2.jpg'
+          .work-caption
+            h3.work-title.font-alt
+              | Bag MockUp
+            .work-descr.font-inc
+              |  Marketing 
       li.work-item.illustration.photography
         a[href="portfolio-single-1.html"]
-
-        .work-image
-          img[src="assets/images/work-3.jpg" alt=""]
-        .work-caption
-          h3.work-title.font-alt
-            | Disk Cover
-          .work-descr.font-inc
-            |  Illustration 
+          .work-image
+            = image_tag 'int3.jpg'
+          .work-caption
+            h3.work-title.font-alt
+              | Disk Cover
+            .work-descr.font-inc
+              |  Illustration 
       li.work-item.marketing.photography
         a[href="portfolio-single-1.html"]
-
-        .work-image
-          img[src="assets/images/work-4.jpg" alt=""]
-        .work-caption
-          h3.work-title.font-alt
-            | Business Card
-          .work-descr.font-inc
-            |  Photography 
-      li.work-item.illustration.webdesign
-        a[href="portfolio-single-1.html"]
-
-        .work-image
-          img[src="assets/images/work-masonry-2.jpg" alt=""]
-        .work-caption
-          h3.work-title.font-alt
-            | Business Cards
-          .work-descr.font-inc
-            |  Webdesign 
-      li.work-item.marketing.webdesign
-        a[href="portfolio-single-1.html"]
-
-        .work-image
-          img[src="assets/images/work-6.jpg" alt=""]
-        .work-caption
-          h3.work-title.font-alt
-            | Business Cards in paper clip
-          .work-descr.font-inc
-            |  Marketing 
-      li.work-item.marketing.webdesign
-        a[href="portfolio-single-1.html"]
-
-        .work-image
-          img[src="assets/images/work-7.jpg" alt=""]
-        .work-caption
-          h3.work-title.font-alt
-            | Business Cards in paper clip
-          .work-descr.font-inc
-            |  Marketing 
-  section.module-small
+          .work-image
+            = image_tag 'int4.jpg'
+          .work-caption
+            h3.work-title.font-alt
+              | Business Card
+            .work-descr.font-inc
+              |  Photography 
+  /section.module-small
     .container
       .row
         .col-sm-6
@@ -113,7 +79,7 @@ section#home.module-hero.module-parallax.module-fade.module-full-height.bg-dark-
               | The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.
             p.font-inc.font-uppercase
               | - Thomas Anderson
-  section.module.p-t-0.p-b-0[data-background="assets/images/section-4.jpg"]
+  /section.module.p-t-0.p-b-0[data-background="assets/images/section-4.jpg"]
     .container-fluid
       .row.relative
         .col-sm-12.col-md-6.col-md-offset-6.col-bg
@@ -143,16 +109,20 @@ section#home.module-hero.module-parallax.module-fade.module-full-height.bg-dark-
             .content-box-icon
               span.icon-map-pin
             .content-box-title.font-inc
-              |  007 Steet, City, USA 
+              |  P.A de l’Hermitage - 35780 LA RICHARDAIS 
+              br
+            	|  BP 10244 - 35802 DINARD Cedex
         .col-sm-4
           .content-box
             .content-box-icon
               span.icon-phone
             .content-box-title.font-inc
-              |  +1 234 567 89 00 
+              |  Tel. : 02.99.16.98.99
+              br
+            	|  Fax : 02.99.16.99.00
         .col-sm-4
           .content-box
             .content-box-icon
               span.icon-envelope
             .content-box-title.font-inc
-              |  semantic@email.com 
+              |  architecte@lugand-delmotte.com
