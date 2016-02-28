@@ -9,7 +9,10 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+set :relative_links, true
 set :fonts_dir, 'stylesheets/fonts'
+
+
 
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
@@ -40,7 +43,7 @@ end
 configure :build do
   # Minify CSS on build
   # activate :minify_css
-
+  set :http_prefix, '/lugand-architecte'
   # Minify Javascript on build
   # activate :minify_javascript
 end

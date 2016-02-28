@@ -48,11 +48,11 @@
 		 * Set module backgrounds
 		/* ---------------------------------------------- */
 
-		module.each(function(i) {
-			if ($(this).attr('data-background')) {
-				$(this).css('background-image', 'url(' + $(this).attr('data-background') + ')');
-			}
-		});
+		// module.each(function(i) {
+		// 	if ($(this).attr('data-background')) {
+		// 		$(this).css('background-image', 'url(' + $(this).attr('data-background') + ')');
+		// 	}
+		// });
 
 		/* ---------------------------------------------- /*
 		 * Full height module
