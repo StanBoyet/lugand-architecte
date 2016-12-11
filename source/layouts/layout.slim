@@ -4,28 +4,28 @@ html
     meta[content="IE=edge" http-equiv="X-UA-Compatible"]
     meta[charset="utf-8"]
     meta[content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"]
-    
+
     title
       = current_page.data.title || "Lugand Delmotte - Architecte"
-    
+
     = stylesheet_link_tag :site
-    
+
     = javascript_include_tag :all
-  
+
   body class="#{page_classes}"
-    
+
     = partial 'navigation'
     = yield
     = partial 'footer'
-    
+
     .scroll-up
       a[href="#totop"]
         i.fa.fa-angle-double-up
-    
+
     script[src="http://maps.google.com/maps/api/js?sensor=true"]
-    
+
     = javascript_include_tag "semantic/jquery-2.1.3.min.js"
-    = javascript_include_tag="bootstrap/bootstrap.min.js"
+    = javascript_include_tag "bootstrap/bootstrap.min.js"
     = javascript_include_tag "semantic/jquery.mb.YTPlayer.min.js"
     = javascript_include_tag "semantic/appear.js"
     = javascript_include_tag "semantic/jquery.simple-text-rotator.min.js"
