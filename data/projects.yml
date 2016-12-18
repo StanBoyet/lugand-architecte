@@ -1,0 +1,63 @@
+-
+  title: The big one
+  subtitle: This one's big
+  styles: ['neuf', 'extension']
+  images:
+    - 'int1.jpg'
+    - 'home.jpg'
+-
+  title: The second
+  subtitle: But this one's bigger
+  styles: ['renovation', 'interieur']
+  images:
+    - 'int2.jpg'
+    - 'home.jpg'
+-
+  title: Oh, a third !
+  subtitle: Wait, can't it be this big ?
+  styles: ['extension', 'renovation']
+  images:
+    - 'workplace.jpg'
+    - 'home.jpg'
+-
+  title: The big one
+  subtitle: This one's big
+  styles: ['neuf', 'extension']
+  images:
+    - 'home.jpg'
+    - 'home.jpg'
+-
+  title: The second
+  subtitle: But this one's bigger
+  styles: ['renovation', 'interieur']
+  images:
+    - 'int2.jpg'
+    - 'home.jpg'
+-
+  title: Oh, a third !
+  subtitle: Wait, can't it be this big ?
+  styles: ['extension', 'renovation']
+  images:
+    - 'home.jpg'
+    - 'home.jpg'
+-
+  title: The big one
+  subtitle: This one's big
+  styles: ['neuf', 'extension']
+  images:
+    - 'workplace.jpg'
+    - 'home.jpg'
+-
+  title: The second
+  subtitle: But this one's bigger
+  styles: ['renovation', 'interieur']
+  images:
+    - 'int1.jpg'
+    - 'home.jpg'
+-
+  title: Oh, a third !
+  subtitle: Wait, can't it be this big ?
+  styles: ['extension', 'renovation']
+  images:
+    - 'int2.jpg'
+    - 'home.jpg'

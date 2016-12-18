@@ -1,0 +1,43 @@
+.wrapper
+  section.module.module-header.bg-dark.bg-dark-80#agence
+    .container
+      .row
+        .col-sm-6.col-sm-offset-3
+          h1.module-title.font-alt.align-center style="margin-top: 100px;"
+           ' Projets
+          .module-subtitle.font-inc.align-center
+            p Nous réalisons tout type de projets, de la bicoque de campagne au type de villa présentes dans les clips de rap US.
+            p On envoi du pâté, en somme.
+
+  section.module-small.p-t-20.p-b-0.p-t-sm-0
+    .container
+      .row
+        .col-sm-12
+          ul#filters.filter.font-inc
+            li
+              a.current.wow.fadeInUp[href="#" data-filter="*"]
+                | All
+            li
+              a.wow.fadeInUp[href="#" data-filter=".neuf" data-wow-delay="0.2s"]
+                | Neuf
+            li
+              a.wow.fadeInUp[href="#" data-filter=".extension" data-wow-delay="0.4s"]
+                | Extension
+            li
+              a.wow.fadeInUp[href="#" data-filter=".renovation" data-wow-delay="0.6s"]
+                | Rénovation
+            li
+              a.wow.fadeInUp[href="#" data-filter=".interieur" data-wow-delay="0.8s"]
+                | Intérieur
+
+    ul#works-grid.works-grid.works-grid-masonry.works-grid-3.works-hover-w
+      - data.projects.each do |project|
+        li.work-item class="#{project.styles.join(' ')}"
+          a[href="portfolio-single-1.html"]
+            .work-image
+              = image_tag project.images[0]
+            .work-caption
+              h3.work-title.font-alt
+                = project.title
+              .work-descr.font-inc
+                = project.subtitle
