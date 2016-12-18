@@ -17,6 +17,10 @@
   background-image: image-url('home.jpg');
 }
 
+.module-header#agence {
+  background-image: image-url('workplace.jpg');
+}
+
 .navbar {
   .navbar-brand {
     .small {
@@ -51,8 +55,4 @@
 
 .module, .module-small, .module-header {
   padding: 50px 0;
-}
-
-.module-title {
-  margin: 10px 0 20px 0;
 }
