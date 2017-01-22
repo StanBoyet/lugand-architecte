@@ -420,3 +420,7 @@ table {
 .yesterday-team {
   background: rgba(1, 1, 1, 0.05);
   margin-top: -20px; }
+
+/* line 83, site.css.scss */
+.work-item {
+  padding: 10px; }
