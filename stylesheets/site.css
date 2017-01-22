@@ -395,8 +395,28 @@ table {
 
 /* line 56, site.css.scss */
 .team-member {
-  margin-bottom: 50px; }
+  margin-bottom: 25px;
+  vertical-align: top; }
 
-/* line 60, site.css.scss */
+/* line 61, site.css.scss */
 .module, .module-small, .module-header {
   padding: 50px 0; }
+
+/* centered columns styles */
+/* line 66, site.css.scss */
+.row-centered {
+  text-align: center; }
+
+/* line 69, site.css.scss */
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  margin-right: -4px; }
+
+/* line 78, site.css.scss */
+.yesterday-team {
+  background: rgba(1, 1, 1, 0.05);
+  margin-top: -20px; }
