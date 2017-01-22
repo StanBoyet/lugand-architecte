@@ -54,9 +54,28 @@
   }
 }
 .team-member {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+  vertical-align: top;
 }
 
 .module, .module-small, .module-header {
   padding: 50px 0;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.yesterday-team {
+  background: rgba(1,1,1,0.05);
+  margin-top: -20px;
 }
