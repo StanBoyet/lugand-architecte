@@ -1,63 +1,62 @@
 -
-  title: The big one
-  subtitle: This one's big
+  title: Un préau pour recevoir
+  subtitle: Saint Luniare
   styles: ['neuf', 'extension']
   images:
-    - 'int1.jpg'
-    - 'home.jpg'
+    - 'projects/preau-reception/image1.JPG'
+    - 'projects/preau-reception/image2.JPG'
 -
-  title: The second
-  subtitle: But this one's bigger
-  styles: ['renovation', 'interieur']
+  title: Une maison pour les enfants
+  subtitle: Saint Briac
+  styles: ['neuf']
   images:
-    - 'int2.jpg'
-    - 'home.jpg'
+    - 'projects/maison-enfants/image1.JPG'
+    - 'projects/maison-enfants/image2.JPG'
 -
-  title: Oh, a third !
-  subtitle: Wait, can't it be this big ?
-  styles: ['extension', 'renovation']
+  title: Villa Ker Patrick
+  subtitle: Dinard
+  styles: ['renovation']
   images:
-    - 'workplace.jpg'
-    - 'home.jpg'
+    - 'projects/villa-ker-patrick/image1.JPG'
 -
-  title: The big one
-  subtitle: This one's big
-  styles: ['neuf', 'extension']
+  title: Grand Hotel et Résidence de Tourisme
+  subtitle: Perros Guirec
+  styles: ['neuf', 'extension', 'renovation']
   images:
-    - 'home.jpg'
-    - 'home.jpg'
+    - 'projects/grand-hotel/image1.JPG'
+    - 'projects/grand-hotel/image2.JPG'
 -
-  title: The second
-  subtitle: But this one's bigger
-  styles: ['renovation', 'interieur']
+  title: Villa Medicis, Villa Roches Marines
+  subtitle: Dinard
+  styles: ['renovation']
   images:
-    - 'int2.jpg'
-    - 'home.jpg'
+    - 'projects/villa-medicis/image1.JPG'
+    - 'projects/villa-medicis/image2.JPG'
 -
-  title: Oh, a third !
-  subtitle: Wait, can't it be this big ?
-  styles: ['extension', 'renovation']
+  title: Dépendance Villa Ker Annick
+  subtitle: Dinard
+  styles: ['renovation']
   images:
-    - 'home.jpg'
-    - 'home.jpg'
+    - 'projects/villa-ker-annick/image1.JPG'
+    - 'projects/villa-ker-annick/image2.JPG'
 -
-  title: The big one
-  subtitle: This one's big
-  styles: ['neuf', 'extension']
+  title: Surélévation Pierre
+  subtitle: Saint Lunaire
+  styles: ['renovation', 'extension']
   images:
-    - 'workplace.jpg'
-    - 'home.jpg'
+    - 'projects/surelevation-pierre/image1.JPG'
+    - 'projects/surelevation-pierre/image2.JPG'
 -
-  title: The second
-  subtitle: But this one's bigger
-  styles: ['renovation', 'interieur']
+  title: Surélévation Maison Bois
+  subtitle: Dinard
+  styles: ['extension']
   images:
-    - 'int1.jpg'
-    - 'home.jpg'
+    - 'projects/surelevation-bois/image1.JPG'
+    - 'projects/surelevation-bois/image2.JPG'
 -
-  title: Oh, a third !
-  subtitle: Wait, can't it be this big ?
-  styles: ['extension', 'renovation']
+  title: Construction garage
+  subtitle: Saint Briac
+  styles: ['neuf']
   images:
-    - 'int2.jpg'
-    - 'home.jpg'
+    - 'projects/construction-garage/image1.JPG'
+    - 'projects/construction-garage/image2.JPG'
