@@ -357,15 +357,15 @@ table {
 
 /* line 16, site.css.scss */
 .module-hero#home {
-  background-image: url("/lugand-architecte/images/home.jpg"); }
+  background-image: url("/images/home.jpg"); }
 
 /* line 20, site.css.scss */
 .module-header#agence {
-  background-image: url("/lugand-architecte/images/workplace.jpg"); }
+  background-image: url("/images/workplace.jpg"); }
 
 /* line 24, site.css.scss */
 .module-header#projects {
-  background-image: url("/lugand-architecte/images/architecture.jpg"); }
+  background-image: url("/images/architecture.jpg"); }
 
 /* line 30, site.css.scss */
 .navbar .navbar-brand .small {
